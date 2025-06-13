@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenSocialAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ee6c70cbffff586d2d8163d9a87db590b2ca52")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenSocialAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenSocialAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

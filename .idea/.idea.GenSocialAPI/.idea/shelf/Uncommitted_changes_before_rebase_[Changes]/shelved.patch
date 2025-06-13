@@ -1,0 +1,56 @@
+Index: .idea/.idea.GenSocialAPI/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Default ignored files\r\n/shelf/\r\n/workspace.xml\r\n# Rider ignored files\r\n/modules.xml\r\n/projectSettingsUpdater.xml\r\n/contentModel.xml\r\n/.idea.GenSocialAPI.iml\r\n# Editor-based HTTP Client requests\r\n/httpRequests/\r\n# Datasource local storage ignored files\r\n/dataSources/\r\n/dataSources.local.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.GenSocialAPI/.idea/.gitignore b/.idea/.idea.GenSocialAPI/.idea/.gitignore
+--- a/.idea/.idea.GenSocialAPI/.idea/.gitignore	(revision 5f66e27d49484ed4946f029ba8bb07bcb2f2103f)
++++ b/.idea/.idea.GenSocialAPI/.idea/.gitignore	(date 1749849846598)
+@@ -1,13 +1,32 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Rider ignored files
+-/modules.xml
+-/projectSettingsUpdater.xml
+-/contentModel.xml
+-/.idea.GenSocialAPI.iml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
++## Ignore .NET build results
++bin/
++obj/
++
++## Ignore Rider IDE files
++.idea/
++*.sln.iml
++
++## Ignore user-specific files
++*.user
++*.suo
++*.userosscache
++*.sln.docstates
++
++## ASP.NET Core logs
++logs/
++*.log
++
++## Environment-based settings
++appsettings.json
++appsettings.*.json
++
++## Visual Studio Code
++.vscode/
++
++## Rider local settings
++.idea/
++
++## Others
++*.db
++*.sqlite
++.env

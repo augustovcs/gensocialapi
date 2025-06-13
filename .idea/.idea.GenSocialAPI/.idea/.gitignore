@@ -1,13 +1,32 @@
-﻿# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/modules.xml
-/projectSettingsUpdater.xml
-/contentModel.xml
-/.idea.GenSocialAPI.iml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+﻿## Ignore .NET build results
+bin/
+obj/
+
+## Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core logs
+logs/
+*.log
+
+## Environment-based settings
+appsettings.json
+appsettings.*.json
+
+## Visual Studio Code
+.vscode/
+
+## Rider local settings
+.idea/
+
+## Others
+*.db
+*.sqlite
+.env
