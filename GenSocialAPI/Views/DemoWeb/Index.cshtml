@@ -1,0 +1,83 @@
+﻿@model GenSocialAPI.DTOs.ArgumentsDTO
+
+@{
+    ViewData["Title"] = "Post Preview";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .section strong {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .section p {
+        background-color: #f0f2f5;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    .image-preview {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .image-preview img {
+        max-width: 300px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 6px;
+        background-color: #fff;
+    }
+</style>
+
+<div class="container">
+    <h2>Post Preview</h2>
+
+    <div class="section">
+        <strong>Script fixo da empresa:</strong>
+        <p>@Model.FixedTextScript</p>
+    </div>
+
+    <div class="section">
+        <strong>Script do usuário:</strong>
+        <p>@Model.OptionalTextScript</p>
+    </div>
+
+    <div class="section">
+        <strong>Estilo selecionado:</strong>
+        <p>@Model.StyleSelected</p>
+    </div>
+
+    <div class="image-preview">
+        <strong>Foto abaixo (demonstrativo):</strong><br />
+        <img src="~/images/imagewebdemo.svg.png" alt="Demo Post Image" />
+    </div>
+</div>
